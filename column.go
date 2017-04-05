@@ -25,6 +25,7 @@ type Column struct {
 	Name            string
 	TableName       string
 	FieldName       string
+	FieldType       reflect.Type
 	SQLType         SQLType
 	Length          int
 	Length2         int
